@@ -11,6 +11,7 @@
     --border-style: #F5F4FA;
     --sctn-bckgrnd-clr: #F5F4FA;
     --border-bottom: #ECECEC;
+    --category-color: #EEEEEE;
 }
 
 * {
@@ -70,7 +71,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    
 }
 
 .logo {
@@ -197,10 +198,12 @@ body {
 
 .hero {
     background: var(--color-backgroud);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-wrap {
-    padding: 200px 452px;
+    
 }
 
 .hero-title {
@@ -215,6 +218,9 @@ body {
     margin-bottom: 30px;
     width: 700px;
     height: 120px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .qualities {
@@ -226,7 +232,6 @@ body {
 }
 
 .quality-list {
-    margin-bottom: 10px;
     display: flex;
     gap: 30px;
 }
@@ -242,6 +247,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-smogy);
+    margin-bottom: 10px;
 }
 
 .quality-text {
@@ -253,7 +259,7 @@ body {
 }
 
 .bussiness {
-    
+    padding-top: 0;
 }
 
 .bussiness-text {
@@ -297,8 +303,8 @@ body {
 }
 
 .team-item {
-
-}
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    }
 
 .team-member {
     font-weight: 500;
@@ -307,6 +313,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-smogy);
     margin-bottom: 10px;
+
 }
 
 .team-text {
@@ -317,6 +324,16 @@ body {
     color: var(--btn-color);
 }
 
+.member-photo {
+    border-radius: 0px;
+}
+
+.member-info {
+    padding: 30px;
+    text-align: center;
+    background: var(--color-white);
+    border-radius: 0px 0px 4px 4px;
+}
 
 /* ------------FOOTER------------- */
 
@@ -334,13 +351,17 @@ body {
     font-style: normal;
 }
 
+.footer-subtitle {
+    margin-bottom: 20px;
+}
+
 .subtitle {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.1923;
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
+    
 }
 
 .webs {
@@ -351,13 +372,26 @@ body {
     color: var(--color-white);
 }
 
+.footer-address {
+    margin-bottom: 9px;
+}
+
 .address {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
     color: var(--color-white);
+    
+}
+
+
+.mail {
     margin-bottom: 9px;
+}
+
+.contact {
+    
 }
 
 .footer-mail,
@@ -367,7 +401,7 @@ body {
     line-height: 1.7142;
     letter-spacing: 0.03em;
     color: var(--ftr-btn-clr);
-    margin-bottom: 9px;
+    
 }
 
 .address:hover,
@@ -398,6 +432,7 @@ body {
     gap: 8px;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .name-categories {
@@ -427,12 +462,10 @@ body {
     letter-spacing: 0.03em;
     border: none;
     cursor: pointer;
-    margin-bottom: 56px;
     font-style: normal;
     font-weight: 500;
     border-radius: 4px;
 }
-
 
 .category-btn:hover,
 .category-btn:focus {
@@ -479,3 +512,8 @@ body {
     color: var(--btn-color);
 }
 
+.category-info {
+    padding: 24px 20px;
+    background: var(--color-white);
+    border: 1px solid var(--category-color);
+}
