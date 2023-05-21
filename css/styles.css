@@ -1,14 +1,14 @@
 /* ------------STUDIO------------ */
 
 :root {
-    --button-color: #2196F3;
-    --color-black: #000000;
-    --color-backgroud: #2F303A;
+    --button-color: #4D5AE5;
+    --color-black: #2E2F42;
+    --color-backgroud: #2E2F42;
     --color-white: #FFFFFF;
-    --color-smogy: #212121;
-    --btn-color: #757575;
+    --color-smogy: #2E2F42;
+    --btn-color: #434455;
     --ftr-btn-clr: rgba(255, 255, 255, 0.6);
-    --border-style: #F5F4FA;
+    --border-style: #F4F4FD;
     --sctn-bckgrnd-clr: #F5F4FA;
     --border-bottom: #ECECEC;
     --category-color: #EEEEEE;
@@ -451,7 +451,7 @@ body {
 .same-button {
     
     padding: 6px 22px;
-    color: var(--color-smogy);
+    color: var(--button-color);
     background: var(--border-style);
 }
 
